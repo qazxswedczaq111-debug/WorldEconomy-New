@@ -1,0 +1,17 @@
+name: WorldEconomy
+version: 1.0.0
+main: com.worldeconomy.WorldEconomy
+api-version: '1.16'
+author: WorldEconomy
+description: Economy and shop plugin for Paper 1.16.5
+
+commands:
+  money:
+    description: Check your balance
+    usage: /money
+  shop:
+    description: Open the shop
+    usage: /shop
+  pay:
+    description: Pay another player
+    usage: /pay <player> <amount>
