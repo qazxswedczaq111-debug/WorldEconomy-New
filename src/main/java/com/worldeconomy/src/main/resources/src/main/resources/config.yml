@@ -1,0 +1,46 @@
+settings:
+  starting-balance: 1000.0
+  currency-symbol: "$"
+
+shop:
+  categories:
+    blocks:
+      name: "Blocks"
+    ores:
+      name: "Ores"
+    farming:
+      name: "Farming"
+    food:
+      name: "Food"
+    combat:
+      name: "Combat"
+    tools:
+      name: "Tools"
+
+  prices:
+    DIAMOND:
+      buy: 200.0
+      sell: 100.0
+    IRON_INGOT:
+      buy: 20.0
+      sell: 10.0
+    GOLD_INGOT:
+      buy: 35.0
+      sell: 17.5
+    EMERALD:
+      buy: 150.0
+      sell: 75.0
+    COAL:
+      buy: 8.0
+      sell: 4.0
+    GOLDEN_APPLE:
+      buy: 250.0
+      sell: 125.0
+    NETHER_STAR:
+      buy: 100000.0
+      sell: 0.0
+
+messages:
+  prefix: "&8[&6WorldEconomy&8] "
+  no-permission: "&cYou don't have permission."
+  not-enough-money: "&cYou don't have enough money."
